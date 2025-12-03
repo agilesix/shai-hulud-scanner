@@ -2,6 +2,15 @@
 
 Security scanner for detecting the **Shai-Hulud 2** npm supply chain attack (November 2025).
 
+### Run Directly (no install)
+
+```bash
+# From the worm-buster directory
+node index.js ~/code
+node index.js /path/to/project
+node index.js --full .
+```
+
 ## Quick Start
 
 ```bash
@@ -47,14 +56,7 @@ worm-buster [options] [directory1] [directory2] ...
 
 Pass one or more directory paths to scan. If no directories are specified, scans the current directory.
 
-### Run Directly (no install)
 
-```bash
-# From the worm-buster directory
-node index.js ~/code
-node index.js /path/to/project
-node index.js --full .
-```
 
 ### Command Line
 
