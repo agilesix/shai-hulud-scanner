@@ -73,6 +73,14 @@ worm-buster . -o ./reports
 worm-buster --json /path/to/project
 ```
 
+### Screenshots of report
+
+| CRITICAL | WARNING | INFO |
+|-----------|------------|--------------|
+| <img width="2070" height="3378" alt="infected" src="https://github.com/user-attachments/assets/ce4cc521-c540-4d0e-b80c-8dc0ea63c30c" />| <img width="2816" height="4960" alt="warnings" src="https://github.com/user-attachments/assets/a3bf93b7-ed82-4847-83be-636b416649cc" />| <img width="2070" height="5026" alt="clean html" src="https://github.com/user-attachments/assets/cca48f6e-1371-455a-a13a-a47c09b8bb55" />|
+
+
+
 ### Options
 
 | Option | Description |
